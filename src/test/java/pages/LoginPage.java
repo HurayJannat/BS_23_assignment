@@ -14,6 +14,10 @@ public class LoginPage {
     @FindBy(id = "password")
     WebElement txtPassword;
 
+
+    @FindBy(linkText = "Reset it here")
+    public WebElement resetLink;
+
     @FindBy(className = "MuiButton-containedPrimary")
     private WebElement loginButton;
 
